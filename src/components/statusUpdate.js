@@ -13,7 +13,7 @@ class StatusUpdate extends Component {
         <div className="status-identity">
           <img src="../assets/images/fox.jpg"/>
           <h4>{this.props.name}</h4>
-          <p className="status-time">10 minutes ago</p>
+          <p className="status-time">10 minutes ago  <i class="fas fa-globe-americas"></i></p>
           <span>...</span>
         </div>
 
@@ -24,9 +24,9 @@ class StatusUpdate extends Component {
         </div>
 
         <div className="status-response">
-          <span>like</span>
-          <span>comment</span>
-          <span>share</span>
+          <span><i class="far fa-thumbs-up"></i>like</span>
+          <span><i class="far fa-comment-alt"></i>comment</span>
+          <span><i class="fas fa-share"></i>share</span>
         </div>
 
         <div className="comments">
