@@ -6,10 +6,8 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <Header/>
-        <div className="feed">
-          <StatusUpdate name="Neil Myers"/>
-        </div>
+        <Header name="Hingle"/>
+        <StatusUpdate name="Hingle McKringle"/>
       </div>
     );
   }
